@@ -1,0 +1,86 @@
+#header {
+    top: 0;
+    left: 0;
+    width: 100vw;
+    position: fixed;
+    z-index: 1;
+    height: 2.5em;
+    background-color: #404040;
+    display: inline-flex;
+    overflow: hidden;
+    justify-content: space-between;
+    border-bottom: 0.1em solid lightgrey;
+}
+
+#header-information {
+    font-size: 1.5rem;
+    margin-right: 2rem;
+}
+
+#header-navigation-marketplace {
+    font-size: 1.5rem;
+}
+
+#header-container-left {
+    float: left;
+    width: 15em;
+    display: flex;
+    justify-content: space-evenly;
+    color: #fff;
+    align-items: center;
+}
+
+#header-container-right {
+    float: right;
+    right: 0;
+    position: relative;
+    width: 15em;
+    display: flex;
+    justify-content: space-evenly;
+    color: #fff;
+    align-items: center;
+
+}
+
+#header-element {
+    font-weight: 550;
+    color: #fff;
+    right: 0;
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#header-element:active {
+    color: #fff;
+    margin: 0;
+    display: inline-block;
+}
+
+.nav-link-active {
+    font-weight: 550;
+    color: #fff;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    margin: 0;
+    display: inline-block;
+}
+
+.nav-link-active:hover {
+    color: #fff;
+}
+
+.nav-link {
+    font-weight: 550;
+    color: #fff;
+    margin: 0;
+    display: inline-block;
+    color: #fff;
+}
+
+.nav-link:hover {
+    color: #fff;
+}

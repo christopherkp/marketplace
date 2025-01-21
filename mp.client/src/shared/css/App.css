@@ -1,0 +1,33 @@
+﻿#root {
+    text-align: center;
+}
+
+th, td {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    vertical-align: top;
+}
+
+.page-header {
+    height: 4rem;
+    font-size: 2em;
+    /*padding-top: 0.2rem;*/
+}
+
+.site-content {
+    /*background-color: rgb(30, 35, 60);*/
+    top: 0;
+    /*padding-top: 8rem;*/
+    width: 100vw;
+    border-radius: 25px;
+    position: relative;
+}
+
+.site-content-iteminformation {
+    /*background-color: rgb(30, 35, 60);*/
+    top: 0;
+    /*padding-top: 8rem;*/
+    width: 100vw;
+    border-radius: 25px;
+    position: relative;
+}
